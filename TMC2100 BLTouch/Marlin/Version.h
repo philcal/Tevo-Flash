@@ -35,7 +35,7 @@
   /**
    * Marlin release version identifier
    */
-  #define SHORT_BUILD_VERSION "Flash-TMC-BL"
+  #define SHORT_BUILD_VERSION "Spammo_1.0"
 
   /**
    * Verbose version identifier which should contain a reference to the location
@@ -70,7 +70,7 @@
   /**
    * Defines a generic printer name to be output to the LCD after booting Marlin.
    */
-  #define MACHINE_NAME "Flash"
+  #define MACHINE_NAME "Spammo"
 
   /**
    * The SOURCE_CODE_URL is the location where users will find the Marlin Source

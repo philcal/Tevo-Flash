@@ -119,8 +119,11 @@
 // Temperature Sensors
 //
 #define TEMP_0_PIN         13   // Analog Input
-#define TEMP_1_PIN         15   // Analog Input
-#define TEMP_BED_PIN       14   // Analog Input
+//#define TEMP_1_PIN         15   // Analog Input
+//#define TEMP_BED_PIN       14   // Analog Input
+// Swap the Heatbed to use the (currently) unused pin for a second extruder temperature
+#define TEMP_1_PIN         14   // Analog Input
+#define TEMP_BED_PIN       15   // Analog Input
 
 // SPI for Max6675 or Max31855 Thermocouple
 #if DISABLED(SDSUPPORT)
